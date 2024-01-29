@@ -1,0 +1,22 @@
+{
+  "name": "react-lib",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "watch": "node build.js --watch"
+  },
+  "exports": {
+    "./": "./dist/"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "esbuild-node-externals": "^1.12.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
